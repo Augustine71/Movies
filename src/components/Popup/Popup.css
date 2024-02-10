@@ -1,0 +1,19 @@
+.popup-container {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+  }
+  
+  .popup {
+    background-color: #7b57ff;
+    border: none;
+  color: rgb(241, 241, 241);
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px #977ef3, 0 2px 4px -1px #977ef3;
+  padding: 10px;
+  border-radius: 5px;
+  }
